@@ -12,6 +12,7 @@ print(f"L'encaminador ha rebut {1200+int(paquets)} paquets.")
 # Exercici 2
 # Demana a l'usuari la velocitat d'una connexió en Mbps. Converteix el valor
 # introduït a un nombre decimal i calcula la velocitat equivalent en MB/s
-# dividint-la per 8. Mostra el resultat.
-velocitat=input(("Quina es la velocitat de la connexió en Mbps?"))
-print(f"La velocitat en MB/s és {float(velocitat)/8}.")
+# dividint-la per 8. Mostra el resultat
+velocitat=float(input(("Quina es la velocitat de la connexió en Mbps?")))
+vel_equivalent= velocitat/8
+print(f"La velocitat en MB/s és {vel_equivalent}.")

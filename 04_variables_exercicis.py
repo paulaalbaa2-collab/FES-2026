@@ -19,9 +19,11 @@ print(f"L'encaminador es diu {nom}, esta a {ubi}, te {ports} ports i esta {estat
 # i els GB consumits. Calcula quants GB queden i mostra el resultat.
 # Després, actualitza el consum amb un valor nou i torna a calcular
 # quants GB queden.
-pla_dades=input("Quins son els GB inclosos al pla?")
-consumits=input("Quins son els GB consumits?")
-totals=int(pla_dades)-int(consumits)
+pla_dades=int(input("Quins son els GB inclosos al pla?"))
+consumits=int(input("Quins son els GB consumits?"))
+totals=pla_dades-consumits
+print(f"Queden {totals} GB.")
 
-consumits=input("Quins son els GB consumits ara?")
-totals=int(pla_dades)-int(consumits)
+consumits=int(input("Quins son els GB consumits actualitzats?"))
+totals=pla_dades-consumits
+print(f"Queden {totals} GB, informació actualitzada.")
