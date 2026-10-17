@@ -92,3 +92,9 @@ print("Comprova si té almenys 8 caràcters.")
 print("Mostra 'Contrasenya vàlida' o 'Contrasenya no vàlida'.")
 
 ### Completa aquí
+pss=input("Introdueix una constrasenya: ")
+
+if len(pss)>=8:
+    print("Contrasenya vàlida.")
+else:
+    print("Contraseya no vàlida.")
