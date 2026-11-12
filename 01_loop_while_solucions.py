@@ -154,4 +154,4 @@ while numero <= n:
   if es_primer:
     print(numero)
 
-  numero += 1
+  numero += 1 
