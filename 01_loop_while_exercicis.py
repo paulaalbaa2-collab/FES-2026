@@ -104,12 +104,20 @@ sum=0
 while num != 0:
     sum+=sum
 
-print(f"La suma és: {sum}")
+print(f"La suma és: {sum}.")
 
 # Exercici 8: Comptar les xifres d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
 # Comptabilitza quantes xifres té fent servir un bucle while.
 # Finalment, imprimeix el nombre de xifres.
+
+num=input("Introdueix un numero enter positiu:")
+i=1
+xifres=0
+
+while i<=len(num):
+    xifres+=xifres
+    i+=i
 
 # Exercici 9: Seqüència de Fibonacci
 # Demana a l'usuari quants termes de la seqüència de Fibonacci vol veure.
