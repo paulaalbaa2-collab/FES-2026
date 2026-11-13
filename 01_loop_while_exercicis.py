@@ -5,10 +5,25 @@
 # Exercici 1: Compte enrere
 # Imprimeix els números del 10 a l'1 fent servir un bucle while.
 
+num = 10
+while num>=1:
+    print(num)
+    num=num-1
+
 # Exercici 2: Suma de números parells (while)
 # Calcula la suma dels números parells entre 1 i 20 (inclosos) fent servir un bucle while.
 
+num=2
+compt=0
 
+while num <=20:
+    if num % 2 ==0:
+        compt+=num
+        num+=num
+    else:
+        num+=num
+
+print(f"La suma de números parells és: {compt}")
 
 # Exercici 3: Factorial d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
@@ -32,6 +47,16 @@ print(f"El factorial del número {num} és {acum}.")
 # La contrasenya ha de tenir almenys 8 caràcters.
 # Fes servir un bucle while per continuar demanant la contrasenya fins que compleixi els requisits.
 # Si la contrasenya és vàlida, imprimeix "Contrasenya vàlida".
+
+contr= input("Introdueix una contrasenya: ")
+
+while len(contr) < 8:
+    print("Constrasenya de mida incorrecte, mínim 8 caràcters.")
+    contr=input("Introdueix una contrasenya: ")
+    
+print("Constrasenya correcta.")
+    
+
 
 # Exercici 5: Taula de multiplicar
 # Demana a l'usuari que introdueixi un número.
@@ -72,6 +97,14 @@ while compt<=10:
 # Demana a l'usuari que introdueixi números enters.
 # Ves sumant els números introduïts fins que l'usuari introdueixi el 0.
 # Al final, imprimeix la suma total. El 0 només serveix per acabar i no s'ha de sumar.
+
+num=int(input("Introdueix números enters: "))
+sum=0
+
+while num != 0:
+    sum+=sum
+
+print(f"La suma és: {sum}")
 
 # Exercici 8: Comptar les xifres d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
