@@ -77,9 +77,9 @@ while compt<=10:
 # Imprimeix tots els números primers menors o iguals que N fent servir un bucle while.
 # Un número és primer si només és divisible per 1 i per ell mateix.
 
-    num=int(input("Introdueix un número enter positiu: "))
-    a=2
-    while a<=num:
+num=int(input("Introdueix un número enter positiu: "))
+a=2
+while a<=num:
         b=2
         primer=True
         while b<a:
