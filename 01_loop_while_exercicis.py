@@ -80,16 +80,16 @@ while compt<=10:
 num=int(input("Introdueix un número enter positiu: "))
 a=2
 while a<=num:
-        b=2
-        primer=True
-        while b<a:
-            if b%a==0:
-                primer=False
-                break
-            else:
-                b += 1
-        print(a)
-        a += 1
+    b=2
+    primer=True        
+    while b<a:
+        if b%a==0:
+            primer=False
+            break
+        else:
+            b += 1
+    print(a)
+    a += 1
                 
      
 
